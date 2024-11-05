@@ -1,0 +1,35 @@
+ALGORITHM three_nb_add
+VAR
+    num1,num2,num3 : INTEGER ;
+    num : INTEGER := 0;
+BEGIN
+    read(num1)
+    read(num2)
+    read(num3)
+    sum:=num1+num2+num3
+    write(sum)
+END
+
+//my sentence will be  first hello world.
+//the length of the sentence is 15 without the period the 
+//number of words in the sentence are 3 the number of vowels in the
+//sentence is 4
+ sizeOflength =0;
+ numberOfwords=1;
+ numberOfvowels=0;;
+ function algorithm1(sentence){
+   vowels="aeiou";
+    for v in sentence:
+
+    sizeOflength +=2;
+     if v in vowels:
+     numberOfvowels +=1;
+     
+      
+      print("sizeOflength", sizeOflength)
+      print("numberOfvowels",numberOfvowels)
+
+ }
+   sentence=(first hello world) 
+algorithm1(sentence)
+   
